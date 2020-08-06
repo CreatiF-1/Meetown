@@ -69,6 +69,12 @@ img {
         box-shadow: none;
         padding: 20px;
     }
+    .mybt {
+        display: none;
+    }
+    .alternative-bt {
+        display: flex;
+    }
   }
 
   @media only screen and (max-width: 570px) {
