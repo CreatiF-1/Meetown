@@ -84,7 +84,7 @@ img {
       }
       nav {
           flex-direction: column;
-          padding: 0px;
+          padding: 0px !important;
 
       }
       .info-email{
