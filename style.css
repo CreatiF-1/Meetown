@@ -40,6 +40,12 @@ img {
     display: none !important;
 }
 
+.my-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1000px) {
     .info-tab {
         flex-direction: column;
