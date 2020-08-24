@@ -46,6 +46,12 @@ img {
     align-items: center;
 }
 
+.my-form-tab {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 @media only screen and (max-width: 1000px) {
     .info-tab {
         flex-direction: column;
