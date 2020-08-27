@@ -178,16 +178,18 @@ a:hover{
 }
 .myimage {
     opacity: 1;
-    -webkit-box-shadow: 1px 0px 69px -32px rgba(0,0,0,0.37);
-    -moz-box-shadow: 1px 0px 69px -32px rgba(0,0,0,0.37);
-    box-shadow: 1px 0px 69px -32px rgba(0,0,0,0.37);
+    padding-bottom: 20px;
+    -webkit-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
+    -moz-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
+    box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     transition-duration: 0.5s;
 }
 .myimage:hover {
     opacity: 0.8;
-    -webkit-box-shadow: 1px 0px 69px -32px rgba(0,0,0,0.37);
-    -moz-box-shadow: 1px 0px 69px -32px rgba(0,0,0,0.37);
-    box-shadow: 1px 0px 69px -32px rgba(0,0,0,0.37);
+    padding-bottom: 20px;
+    -webkit-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
+    -moz-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
+    box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     transition-duration: 0.5s;
 }
 video {
