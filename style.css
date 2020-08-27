@@ -212,10 +212,6 @@ body {
     border-top: 1px solid 
 }
 
-img {
-    pointer-events: none;
-}
-
 .logo-transparent:hover {
     opacity: 0.7;
     
