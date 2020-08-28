@@ -7,7 +7,7 @@
     align-items: center;
     /* margin-right: 20px; */
     /* margin-left: 20px; */
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -64,6 +64,7 @@
 #myparagraph{
     font-size: 25px;
     color:rgb(34, 34, 34);
+    text-align: center;
 }
 span{
     color: rgb(238,108,77,100%);
@@ -79,7 +80,7 @@ span{
     /* position: relative; */
     border-radius: 5px;
     height: 90vh;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 #calltoaction{
     display: flex;
@@ -91,6 +92,8 @@ span{
 #macbook{
     display: flex;
     width: 500px;
+    max-width: 80%;
+    margin: auto;
 }
 
 .mybutton {
@@ -259,105 +262,62 @@ span{
     color: #696969;
     font-weight: 300;
 }
-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.intro-video {
-    max-width: 550px;
-    max-height: 400px;
-    margin-top: 20px;
+@media only screen and (max-width: 1450px) {
+    .myfooter{
+        max-width: 68%;
+    }
+    .mydivisor{
+        max-width: 68%;
+    }
 }
-
-body {
-   background-color:  rgb(255, 255, 255);
-}
-
-.myhr {
-    border-top: 1px solid 
-}
-
-.logo-transparent:hover {
-    opacity: 0.7;
-    
-}
-.alternative-bt {
-    display: none !important;
-}
-
-.my-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.my-form-tab {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
 @media only screen and (max-width: 1000px) {
-    .info-tab {
+    .myfooter{
+        max-width: 80%;
+    }
+    .mydivisor{
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .myfooter{
+        max-width: 90%;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
+        margin: auto;
+        padding-top: 7vh;
+        /* padding-bottom: 35vh; */
+        height: 80vh;
     }
-    .img-tab {
-        flex-direction: row;
-        width: 400px;
-        align-items: center;
-        justify-content: center;
+    .mydivisor{
+        max-width: 90%;
     }
-    .icon-preview {
-        margin: 15px;
-    }
-    .box-tab {
-        width: 100%;
-    }
-    .text-tab {
+    .footerdiv{
         width: 80%;
-        padding-bottom: 20px;
-        text-align: center;
+        padding-right: 0px;
+        height: auto;
+        padding-bottom: 50px;
     }
-    .bt-tab {
+}
+@media only screen and (max-width: 520px) {
+    .myfooter{
+        max-width: 90%;
         display: flex;
-        justify-content: center;
-        box-shadow: none;
-        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding-top: 7vh;
+        /* padding-bottom: 35vh; */
+        height: 80vh;
     }
-    .mybt {
-        display: none !important;
+    .mydivisor{
+        max-width: 90%;
     }
-    .alternative-bt {
-        display: inline !important ;
+    .footerdiv{
+        width: 100%;
+        padding-right: 0px;
+        height: auto;
+        padding-bottom: 110px;
     }
-  }
-
-  @media only screen and (max-width: 570px) {
-      #logo-transparent {
-          max-width: 100%;
-          padding-bottom: 30px;
-      }
-      nav {
-          flex-direction: column;
-          padding: 0px !important;
-
-      }
-      .info-email{
-        margin: 20px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-      }
-      .mybt {
-        display: none !important;
-      }
-      .alternative-bt {
-          display: inline !important ;
-      }
-  }
+}
