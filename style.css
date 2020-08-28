@@ -263,7 +263,20 @@ a:hover{
     min-width: 40%;
     margin:auto;
     padding-top: 7vh;
-    padding-bottom: 35vh;
+}
+.myfooter2{
+    max-width: 50%;
+    min-width: 40%;
+    margin:auto;
+    padding-top: 7vh;
+    padding-bottom: 90vh;
+}
+.myfooter3{
+    max-width: 50%;
+    min-width: 40%;
+    margin:auto;
+    padding-top: 7vh;
+    padding-bottom: 165vh;
 }
 .myfooter_element{
     padding-bottom: 50px;
@@ -276,11 +289,43 @@ a:hover{
     padding-bottom: 15px;
     color: rgb(238,108,77,100%);
 }
+.myfeature_title{
+    font-size: 34px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    color: rgb(238,108,77,100%);
+}
+.featureimg{
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+    opacity: 1;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 1px 0px 39px -5px rgba(0,0,0,0.32);
+-moz-box-shadow: 1px 0px 39px -5px rgba(0,0,0,0.32);
+box-shadow: 1px 0px 39px -5px rgba(0,0,0,0.32);
+    transition-duration: 0.5s;
+}
+.featureimg:hover{
+    opacity: 0.6;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 1px 0px 39px -5px rgba(0,0,0,0.32);
+-moz-box-shadow: 1px 0px 39px -5px rgba(0,0,0,0.32);
+box-shadow: 1px 0px 39px -5px rgba(0,0,0,0.32);
+    transition-duration: 0.5s;
+}
 .myfooter_text{
     font-size: 22px;
     line-height: 32px;
     font-weight: 300;
     color: #505050;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 span{
     font-weight: 600;
@@ -289,6 +334,10 @@ span{
     margin: auto;
     max-width: 50%;
     min-width: 40%;
+    border-color:#ececec; ;
+}
+.mydivisor2{
+    margin: auto;
     border-color:#ececec; ;
 }
 #myfooter_link{
@@ -366,5 +415,10 @@ span{
         padding-right: 0px;
         height: auto;
         padding-bottom: 110px;
+    }
+    .myfooter3{
+        margin:auto;
+        padding-top: 7vh;
+        padding-bottom: 125vh;
     }
 }
