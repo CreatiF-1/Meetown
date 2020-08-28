@@ -179,7 +179,7 @@ span{
     padding-right: 20px;
     text-align: center;
     font-size: 25px;
-    line-height: 41px;
+    flex-direction: column;
     color: rgb(34, 34, 34);
 
 }
