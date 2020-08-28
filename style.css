@@ -69,6 +69,11 @@
 span{
     color: rgb(238,108,77,100%);
 }
+#scroll{
+    width: 32px;
+    height: auto;
+    padding-top: 140px;
+}
 #mycalltoaction {
     display: flex;
     flex-direction: column;
@@ -76,11 +81,10 @@ span{
     align-items: center;
     z-index: 1000;
     color: white;
-    /* top: 10vh; */
-    /* position: relative; */
+    top: 0vh;
+    position: relative; 
     border-radius: 5px;
     height: 90vh;
-    background-color: rgb(255, 255, 255);
 }
 #calltoaction{
     display: flex;
