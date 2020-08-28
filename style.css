@@ -280,7 +280,7 @@ a:hover{
 }
 .myfooter_element{
     padding-bottom: 50px;
-    height: 150px;
+    height: 200px;
 }
 .myfooter_title{
     font-size: 16px;
@@ -422,7 +422,7 @@ span{
         padding-bottom: 125vh;
     }
     .myfooter_element {
-        /* padding-bottom: 66px; */
+        padding-bottom: 66px;
         height: 200px;
     }
 }
