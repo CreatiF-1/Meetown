@@ -3,10 +3,13 @@
     justify-content: space-around;
     background-color: transparent;
     color: white;
-    height: 125px;
+    height: 10vh;
     align-items: center;
-    margin-right: 20px;
-    margin-left: 20px;
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+    background-color: antiquewhite;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #mynav_tab {
     display: flex;
@@ -24,7 +27,8 @@
 .mynav_link {
     height: 40px;
     width: 90px;
-    background-color: rgb(255,255,255,0%);
+    background-color: rgb(238,108,77,0%);
+    color: rgb(34, 34, 34);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +38,7 @@
 .mynav_link:hover{
     height: 40px;
     width: 90px;
-    background-color: rgb(255,255,255,20%);
+    background-color: rgb(238,108,77,100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,12 +59,15 @@
 #mytitle {
     font-weight: bold;
     font-size: 70px;
+    color:#EE6C4D;
 }
 #myparagraph{
     font-size: 25px;
-    color: rgba(255, 255, 255, 65%);
+    color:rgb(34, 34, 34);
 }
-
+span{
+    color: rgb(238,108,77,100%);
+}
 #mycalltoaction {
     display: flex;
     flex-direction: column;
@@ -68,13 +75,26 @@
     align-items: center;
     z-index: 1000;
     color: white;
-    top: 16vh;
-    position: relative;
+    /* top: 10vh; */
+    /* position: relative; */
     border-radius: 5px;
+    height: 90vh;
+    background-color: antiquewhite;
+}
+#calltoaction{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#macbook{
+    display: flex;
+    width: 500px;
 }
 
 .mybutton {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(238,108,77,0%);
     height: 48px;
     width: 210px;
     display: flex;
@@ -82,30 +102,26 @@
     align-items: center;
     margin-top: 20px;
     border-radius: 8px;
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: rgb(238,108,77,100%);
     border-width: 2px;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: rgb(238,108,77,100%);
     transition-duration: 0.5s;
 }
 
 .mybutton:hover{
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(238,108,77,100%);
+    border-color: rgb(238,108,77,100%);
+    color: rgb(255, 255, 255);
     transition-duration: 0.5s;
-}
-
-span {
-    margin-left: 10px;
 }
 #mycaption {
     display: flex;
     justify-content: center;
-    padding-top: 86vh;
+    padding-top: 15vh;
     padding-bottom: 15vh;
-    position: relative; 
+    position: relative;
     margin: auto;
     max-width: 800px;
     padding-left: 20px;
@@ -113,7 +129,7 @@ span {
     text-align: center;
     font-size: 25px;
     line-height: 41px;
-    color:#202020;
+    color: rgb(34, 34, 34);
 
 }
 #mycoreproblem {
@@ -125,7 +141,7 @@ span {
     text-align: center;
     font-size: 17px;
     font-weight: 600;
-    color: rgba(0, 0, 0, 40%);
+    color: rgb(238,108,77,100%);
     padding-bottom: 50px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -144,7 +160,7 @@ span {
 }
 .captiontext{
     font-size: 17px;
-    color:#202020;
+    color:rgb(34, 34, 34);
     font-weight: normal;
     line-height: 1.5;
     max-width: 400px;
@@ -155,7 +171,7 @@ span {
     font-size: 28px;
     font-weight: 800;
     line-height: 32px;
-    color: #202020;
+    color: rgb(34, 34, 34);
 }
 a{
     color: rgb(197, 197, 197);
@@ -178,7 +194,7 @@ a:hover{
 }
 .myimage {
     opacity: 1;
-    padding-bottom: 20px;
+    margin-bottom: 35px;
     -webkit-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     -moz-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
@@ -186,11 +202,62 @@ a:hover{
 }
 .myimage:hover {
     opacity: 0.8;
-    padding-bottom: 20px;
+    margin-bottom: 35px;
     -webkit-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     -moz-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     transition-duration: 0.5s;
+}
+.myfooter{
+    max-width: 50%;
+    min-width: 40%;
+    margin:auto;
+    padding-top: 7vh;
+    padding-bottom: 35vh;
+}
+.myfooter_element{
+    padding-bottom: 50px;
+    height: 150px;
+}
+.myfooter_title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: rgb(238,108,77,100%);
+}
+.myfooter_text{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #505050;
+}
+span{
+    font-weight: 600;
+}
+.mydivisor{
+    margin: auto;
+    max-width: 50%;
+    min-width: 40%;
+    border-color:#ececec; ;
+}
+#myfooter_link{
+    color: #181818;
+    transition-duration: 0.5s;
+    font-weight: 500;
+}
+#myfooter_link:hover{
+    color:rgb(238,108,77,100%)!important;
+    transition-duration: 0.5s;
+}
+#license {
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+}
+#license_text{
+    font-size: 18px;
+    color: #696969;
+    font-weight: 300;
 }
 video {
     width: 100%;
@@ -205,7 +272,7 @@ video {
 }
 
 body {
-   background-color:  #EDEEF3;
+   background-color:  rgb(255, 255, 255);
 }
 
 .myhr {
