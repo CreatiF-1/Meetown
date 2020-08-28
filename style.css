@@ -204,7 +204,7 @@ span{
     justify-content: center;
     padding-top: 100px;
     flex-wrap: wrap;
-    /* align-items: center; */
+    align-items: center;
     /* position: relative; */
     /* align-items: center; */
 }
@@ -421,4 +421,7 @@ span{
         padding-top: 7vh;
         padding-bottom: 125vh;
     }
+    .myfooter_element {
+        /* padding-bottom: 66px; */
+        height: 200px;
 }
