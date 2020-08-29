@@ -502,5 +502,6 @@ span{
     }
     #mycaptiontext{
         font-size: 20px;
+        padding-top: 20px;
     }
 }
