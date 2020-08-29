@@ -258,6 +258,7 @@ a:hover{
 .myimage {
     opacity: 1;
     margin-bottom: 35px;
+    border-radius: 10px;
     -webkit-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     -moz-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
@@ -266,6 +267,8 @@ a:hover{
 .myimage:hover {
     opacity: 0.8;
     margin-bottom: 35px;
+    border-radius: 10px;
+    transform: translate(0, -5px);
     -webkit-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     -moz-box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
     box-shadow: 1px 0px 71px -56px rgba(0,0,0,0.37);
