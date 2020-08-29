@@ -484,7 +484,7 @@ span{
         height: 200px;
     }
     #mytitle{
-        font-size: 60px;
+        font-size: 55px;
     }
     #myparagraph{
         font-size: 20px;
@@ -499,5 +499,8 @@ span{
         background-color: rgb(255, 255, 255);
         padding-left: 0px; 
         padding-right: 0px;
+    }
+    #mycaptiontext{
+        font-size: 20px;
     }
 }
