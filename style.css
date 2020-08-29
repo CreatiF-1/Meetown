@@ -284,6 +284,10 @@ a:hover{
     padding-top: 7vh;
     padding-bottom: 90vh;
 }
+.mynav_element_logo{
+    width: auto!important;
+    padding: 40px;
+}
 .myfooter3{
     max-width: 50%;
     min-width: 40%;
@@ -478,5 +482,22 @@ span{
     .myfooter_element {
         padding-bottom: 66px;
         height: 200px;
+    }
+    #mytitle{
+        font-size: 60px;
+    }
+    #myparagraph{
+        font-size: 20px;
+    }
+    #mynav{
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        color: white;
+        height: 10vh;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding-left: 0px; 
+        padding-right: 0px;
     }
 }
