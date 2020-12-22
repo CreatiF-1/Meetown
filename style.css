@@ -147,14 +147,13 @@ span{
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
-    max-width: 49%;
+    max-width: 40%;
     justify-content: space-between;
 }
 #macbook{
     display: flex;
     width: 500px;
-    max-width: 80%;
-    margin: auto;
+    max-width: 90%;
 }
 .amazon-logo-btn{
     max-width: 100px;
