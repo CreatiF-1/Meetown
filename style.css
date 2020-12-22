@@ -490,6 +490,11 @@ span{
     }
     #mytitle{
         font-size: 55px;
+        font-weight: 700;
+    }
+    #myprice{
+        font-weight: 700;
+        font-size: 85px;
     }
     #myparagraph{
         font-size: 20px;
