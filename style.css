@@ -156,7 +156,9 @@ span{
     max-width: 80%;
     margin: auto;
 }
-
+.amazon-logo-btn{
+    max-width: 100px;
+}
 .mybutton {
     background-color: rgb(238,108,77,0%);
     height: 48px;
