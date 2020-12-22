@@ -96,6 +96,11 @@
     font-size: 35px;
     color:#EE6C4D;
 }
+#myprice {
+    font-weight: bold;
+    font-size: 65px;
+    color:#EE6C4D;
+}
 #myparagraph{
     font-size: 25px;
     color:rgb(34, 34, 34);
@@ -487,14 +492,6 @@ span{
     .myfooter_element {
         padding-bottom: 66px;
         height: 200px;
-    }
-    #mytitle{
-        font-size: 55px;
-        font-weight: 700;
-    }
-    #myprice{
-        font-weight: 700;
-        font-size: 85px;
     }
     #myparagraph{
         font-size: 20px;
