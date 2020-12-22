@@ -160,7 +160,7 @@ span{
     max-width: 100px;
 }
 .mybutton {
-    background: linear-gradient(to bottom,#f6c88f,#ed9220);
+    background: black;
     height: 68px;
     width: 240px;
     display: flex;
@@ -171,13 +171,13 @@ span{
     border-radius: 8px;
     font-size: 22px;
     font-weight: 500;
-    color:black;
+    color:white;
     transition-duration: 0.2s;
 }
 
 .mybutton:hover{
     transform: scale(1.18);
-    color:black;
+    color:white;
     transition-duration: 0.2s;
 }
 #mycaption {
