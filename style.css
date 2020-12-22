@@ -161,8 +161,8 @@ span{
 }
 .mybutton {
     background: linear-gradient(to bottom,#f6c88f,#ed9220);
-    height: 48px;
-    width: 210px;
+    height: 68px;
+    width: 240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,6 +177,7 @@ span{
 
 .mybutton:hover{
     transform: scale(1.18);
+    color:black;
     transition-duration: 0.2s;
 }
 #mycaption {
