@@ -111,7 +111,7 @@ span{
 #scroll{
     width: 32px;
     height: auto;
-    margin-top: 140px;
+    padding-top: 100px;
 }
 .loader-wrapper {
     width: 100%;
